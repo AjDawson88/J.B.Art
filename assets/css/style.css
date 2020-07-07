@@ -46,9 +46,6 @@ li {
     /*--background-color: #dda15e;--*/
     text-align: center;
     transform: scale(1.25);
-    border-radius: 50%;
-    height: 130%;
-    width: 130%;
     align-content: center;
     /*--border-style: solid;
     border-width: 1px;
@@ -62,3 +59,36 @@ li {
     color: #fefae0 !important;
     font-size: 200%;
 }
+
+/*---------------------------------footer--*/
+
+.footer {
+    background-color: #bc6c25;
+    text-align: center;
+    
+}
+
+.footer-icon {
+    padding: 15px;
+    
+}
+
+.fa-facebook {
+    color:#fefae0;
+    
+}
+
+.fa-instagram {
+    color:#fefae0;
+    
+}
+
+.fa-twitter {
+    color:#fefae0;
+    
+}
+
+a:hover {
+    text-decoration: none;
+}
+
