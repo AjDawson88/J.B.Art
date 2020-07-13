@@ -2,6 +2,7 @@
 /*-------------------------------Nav Bar----*/
 
 .navbar {
+    height: 10vh;
     border-style: solid;
     border-width: 2px;
     border-color: #dda15e;
@@ -43,13 +44,10 @@ li {
 
 @media (min-width: 796px){ 
 .header a:hover {
-    /*--background-color: #dda15e;--*/
+    
     text-align: center;
     transform: scale(1.25);
     align-content: center;
-    /*--border-style: solid;
-    border-width: 1px;
-    border-color: #fefae0;--*/
     transition:.2s ease-in
     
 }
@@ -75,11 +73,10 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     border-style: solid;
+    border-width:2px;
+    border-color: #dda15e;
     border-top: none;
     border-bottom: none;
-    border-right: #dda15e;
-    border-left:#dda15e;
-    border-width:2px;
     animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
   -moz-animation: fadeIn ease 4s;
@@ -131,14 +128,6 @@ section {
 }
 }
 
-/*.mainpage-image {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    
-    }*/
 
 /*---------------------------------footer--*/
 
@@ -151,10 +140,7 @@ section {
     
 }
 
-.footer-icon {
-    padding: 15px;
-    
-}
+
 
 .fa-facebook {
     color:#fefae0;
@@ -175,3 +161,21 @@ a:hover {
     text-decoration: none;
 }
 
+.footer-icon li a i {
+     padding: 12px 0;
+     height:32px;
+     width:32px;
+     border-radius:50%;
+     font-size:17px;
+     line-height: 7px;
+     text-align: center;
+     background: #bc6c25;
+     transition: all 0.75s ease-in-out; 
+   -moz-transition: all 0.75s ease-in-out; 
+   -webkit-transition: all 0.75s ease-in-out; 
+   -o-transition: all 0.75s ease-in-out; 
+    }
+
+    .footer-icon li a i:hover {
+        background:#dda15e;
+    }
