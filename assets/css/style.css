@@ -60,11 +60,94 @@ li {
     font-size: 200%;
 }
 
+/*---------------------------------Main Page---*/
+section {
+    height:100vh;
+}
+
+
+.main-page {
+    position:relative;
+    background-image: url(/assets/images/jbmainpic.jpg);
+    background-size: cover;
+    height:100%;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    border-right: #dda15e;
+    border-left:#dda15e;
+    border-width:2px;
+    animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+}
+
+/*.mainpage-image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    
+    }*/
+
 /*---------------------------------footer--*/
 
 .footer {
     background-color: #bc6c25;
     text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dda15e;
     
 }
 
