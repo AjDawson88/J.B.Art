@@ -2,11 +2,11 @@
 /*-------------------------------Nav Bar----*/
 
 .navbar {
-    height: 10vh;
+    height: 13vh;
     border-style: solid;
     border-width: 2px;
     border-color: #dda15e;
-
+    position: relative;
 }
 
 .text{
@@ -37,8 +37,8 @@ li {
 
 
 @media (min-width: 796px){
-.nav-item {
-    padding: 5%;
+.header {
+    /*padding: 5%;*/
     }
 }
 
@@ -128,7 +128,21 @@ section {
 }
 }
 
+/*----------------------------------gallery*/
 
+
+
+img {
+    max-width:100%;
+    height:auto;
+    object-fit: cover;
+    padding: 3%;
+    
+}
+
+.gallery {
+    background-color: #fefae0;
+}
 /*---------------------------------footer--*/
 
 .footer {
@@ -137,7 +151,7 @@ section {
     border-style: solid;
     border-width: 2px;
     border-color: #dda15e;
-    
+    position: static;
 }
 
 
