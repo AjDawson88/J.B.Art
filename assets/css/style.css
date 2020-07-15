@@ -2,7 +2,7 @@
 /*-------------------------------Nav Bar----*/
 
 .navbar {
-    height: 13vh;
+    /*height: 13vh;*/
     border-style: solid;
     border-width: 2px;
     border-color: #dda15e;
@@ -13,7 +13,9 @@
     font-family: "Quicksand"; 
     color: #fefae0 !important;
     font-weight: 500;
+   
 }
+
 
 ul {
     list-style-type: none;
@@ -35,11 +37,8 @@ li {
     padding-right: 25px;
 }
 
-
-@media (min-width: 796px){
-.header {
-    /*padding: 5%;*/
-    }
+.header .text {
+    padding:10%;
 }
 
 @media (min-width: 796px){ 
@@ -48,7 +47,8 @@ li {
     text-align: center;
     transform: scale(1.25);
     align-content: center;
-    transition:.2s ease-in
+    transition:.2s ease-in;
+    max-height: 8vh;
     
 }
 }
@@ -207,15 +207,43 @@ section {
 
 img {
     max-width:100%;
-    height:auto;
+    height:400px;
     object-fit: cover;
-    padding: 3%;
-    border-style: solid;
+    padding: 1%;
+    transition: transform .2s;
+    position: relative;
+}
+@media (min-width: 796px){ 
+img:hover {
+     transform: scale(1.2);
+     z-index: 10;
+     display:block;
+     margin-right:auto;
+     margin-left: auto;
+}
+}
+
+.top img:hover {
+    margin-top: 10%;
+}
+
+.left img:hover {
+   margin-left: 10%;
+}
+
+.right img:hover {
+   padding-right: 8%;
+}
+
+.bottom img:hover {
+    margin-bottom: 10%;
 }
 
 .gallery {
     background-color: #fefae0;
 }
+
+
 /*---------------------------------footer--*/
 
 .footer {
